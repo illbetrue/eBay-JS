@@ -4,7 +4,7 @@ export class FooterComponent {
     this.#page = page;
   }
 
-  async footerOption(parameter) {
+  async selectFooterOption(parameter) {
     const selectors = {
       "Sign in/Register": "Sign in / Register",
       "Sell an item": "Sell an item",

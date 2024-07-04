@@ -40,7 +40,7 @@ test.describe("Mobile Tests @mobile", () => {
     const expectedTitle =
       "Selling on eBay | Electronics, Fashion, Home & Garden | eBay";
     const footerOption =
-      await baseComponent.footerComponent.footerOption("Sell an item");
+      await baseComponent.footerComponent.selectFooterOption("Sell an item");
     await Promise.all([
       basePage.page.waitForNavigation({ waitUntil: "load" }),
       footerOption.click(),
