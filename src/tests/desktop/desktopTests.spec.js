@@ -40,10 +40,10 @@ test.describe("Desktop Tests @desktop", () => {
   }) => {
     await basePage.openHomePage();
     const baseComponent = new BaseComponent(basePage.page);
-    const category = "Books";
+    const searchCategory = "Books";
     const searchValue = "Stephen King";
     await baseComponent.headerComponent.selectOptionAndSearch(
-      category,
+      searchCategory,
       searchValue,
     );
     const result = await basePage.searchResultPage.getSearchResultText();
