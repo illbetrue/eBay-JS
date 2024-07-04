@@ -35,7 +35,7 @@ test.describe("Desktop Tests @desktop", () => {
     await expect(baseComponent.headerComponent.getLogoDesktop()).toBeVisible();
   });
 
-  test("should select search category and verify searching result", async ({
+  test("should select search category, search and verify searching result", async ({
     basePage,
   }) => {
     await basePage.openHomePage();
