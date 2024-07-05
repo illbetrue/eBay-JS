@@ -11,25 +11,24 @@ export const test = base.extend({
     const basePage = new BasePage(page);
     await use(basePage);
   },
-  itemPage: async ({page}, use) => {
+  itemPage: async ({ page }, use) => {
     const itemPage = new ItemPage(page);
     await use(itemPage);
   },
-  searchResultPage: async ({page}, use) => {
+  searchResultPage: async ({ page }, use) => {
     const searchResultPage = new SearchResultPage(page);
     await use(searchResultPage);
   },
-  baseComponent: async ({page}, use) => {
+  baseComponent: async ({ page }, use) => {
     const baseComponent = new BaseComponent(page);
     await use(baseComponent);
   },
-  footerComponent: async ({page}, use) => {
+  footerComponent: async ({ page }, use) => {
     const footerComponent = new FooterComponent(page);
     await use(footerComponent);
   },
-  headerComponent: async ({page}, use) => {
+  headerComponent: async ({ page }, use) => {
     const headerComponent = new HeaderComponent(page);
     await use(headerComponent);
   },
-
 });

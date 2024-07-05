@@ -20,10 +20,6 @@ export class BasePage {
     return this.#itemPage;
   }
 
-  set itemPage(newItemPage) {
-    this.#itemPage = newItemPage;
-  }
-
   get searchResultPage() {
     return this.#searchResultPage;
   }
