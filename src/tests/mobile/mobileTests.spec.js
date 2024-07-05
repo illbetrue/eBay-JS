@@ -1,20 +1,21 @@
 import { test } from "../../fixtures/fixture.js";
-import { BaseComponent } from "../../po/components/BaseComponent.js";
 import { compareText } from "../../utils/compareText.js";
 import { expect } from "allure-playwright";
 
 test.describe("Mobile Tests @mobile", () => {
-  test("should search, select and verify item", async ({ basePage }) => {
+  test("should search, select and verify item", async ({
+    basePage,
+    headerComponent,
+    searchResultPage,
+    itemPage,
+  }) => {
     const itemName = "iPhone 13";
     await basePage.openHomePage();
-    const baseComponent = new BaseComponent(basePage.page);
-    await baseComponent.headerComponent.searchFor("iPhone 13");
-    await basePage.searchResultPage.selectMobileCategoriesFilter(
-      "Storage Capacity",
-    );
-    await basePage.searchResultPage.markMobileCheckBoxAndSubmit("256 GB");
-    await basePage.searchResultPage.selectItemByIndex(3);
-    const result = await basePage.itemPage.getMobileItemName();
+    await headerComponent.searchFor("iPhone 13");
+    await searchResultPage.selectMobileCategoriesFilter("Storage Capacity");
+    await searchResultPage.markMobileCheckBoxAndSubmit("256 GB");
+    await searchResultPage.selectItemByIndex(3);
+    const result = await itemPage.getMobileItemName();
     compareText(result, itemName, "contain");
   });
 
@@ -26,26 +27,24 @@ test.describe("Mobile Tests @mobile", () => {
     compareText(actualTitle, expectedTitle, "be equal to");
   });
 
-  test("should verify the logo", async ({ basePage }) => {
+  test("should verify the logo", async ({ basePage, headerComponent }) => {
     await basePage.openHomePage();
-    const baseComponent = new BaseComponent(basePage.page);
-    await expect(baseComponent.headerComponent.getLogoMobile()).toBeVisible();
+    await expect(headerComponent.getLogoMobile()).toBeVisible();
   });
 
   test("should select option from footer, go there and verify the page title", async ({
     basePage,
+    footerComponent,
   }) => {
     await basePage.openHomePage();
-    const baseComponent = new BaseComponent(basePage.page);
     const expectedTitle =
       "Selling on eBay | Electronics, Fashion, Home & Garden | eBay";
     const footerOption =
-      await baseComponent.footerComponent.selectFooterOption("Sell an item");
+      await footerComponent.selectFooterOption("Sell an item");
     await Promise.all([
       basePage.page.waitForNavigation({ waitUntil: "load" }),
       footerOption.click(),
     ]);
-    await basePage.page.waitForTimeout(2000);
     const actualTitle = await basePage.page.title();
     compareText(actualTitle, expectedTitle, "be equal to");
   });
