@@ -1,1 +1,349 @@
-{"uid":"a17caefc356aa2fc","name":"should verify home page title","fullName":"mobile/mobileTests.spec.js:21:3","historyId":"d8b4f1a15aae73f06216f12cf6ac5cc1:96797789f4669ba5e9de53cebde9126b","time":{"start":1724232593424,"stop":1724232595928,"duration":2504},"status":"passed","flaky":false,"newFailed":false,"newBroken":false,"newPassed":false,"retriesCount":0,"retriesStatusChange":false,"beforeStages":[],"testStage":{"status":"passed","steps":[{"name":"Before Hooks","time":{"start":1724232593433,"stop":1724232596325,"duration":2892},"status":"passed","steps":[{"name":"fixture: saveLogs","time":{"start":1724232593453,"stop":1724232593457,"duration":4},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"attachmentsCount":0,"shouldDisplayMessage":false,"stepsCount":0,"attachmentStep":false},{"name":"fixture: browser","time":{"start":1724232593460,"stop":1724232593870,"duration":410},"status":"passed","steps":[{"name":"browserType.launch","time":{"start":1724232593467,"stop":1724232593870,"duration":403},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"attachmentsCount":0,"shouldDisplayMessage":false,"stepsCount":0,"attachmentStep":false}],"attachments":[],"parameters":[],"hasContent":true,"attachmentsCount":0,"shouldDisplayMessage":false,"stepsCount":1,"attachmentStep":false},{"name":"fixture: context","time":{"start":1724232593872,"stop":1724232593892,"duration":20},"status":"passed","steps":[{"name":"browser.newContext","time":{"start":1724232593875,"stop":1724232593888,"duration":13},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"attachmentsCount":0,"shouldDisplayMessage":false,"stepsCount":0,"attachmentStep":false}],"attachments":[],"parameters":[],"hasContent":true,"attachmentsCount":0,"shouldDisplayMessage":false,"stepsCount":1,"attachmentStep":false},{"name":"fixture: page","time":{"start":1724232593893,"stop":1724232594353,"duration":460},"status":"passed","steps":[{"name":"browserContext.newPage","time":{"start":1724232593896,"stop":1724232594352,"duration":456},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"attachmentsCount":0,"shouldDisplayMessage":false,"stepsCount":0,"attachmentStep":false}],"attachments":[],"parameters":[],"hasContent":true,"attachmentsCount":0,"shouldDisplayMessage":false,"stepsCount":1,"attachmentStep":false},{"name":"fixture: page","time":{"start":1724232594354,"stop":1724232596325,"duration":1971},"status":"passed","steps":[{"name":"page.goto(/)","time":{"start":1724232594361,"stop":1724232596325,"duration":1964},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"attachmentsCount":0,"shouldDisplayMessage":false,"stepsCount":0,"attachmentStep":false}],"attachments":[],"parameters":[],"hasContent":true,"attachmentsCount":0,"shouldDisplayMessage":false,"stepsCount":1,"attachmentStep":false}],"attachments":[],"parameters":[],"hasContent":true,"attachmentsCount":0,"shouldDisplayMessage":false,"stepsCount":9,"attachmentStep":false},{"name":"page.title","time":{"start":1724232596329,"stop":1724232596341,"duration":12},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"attachmentsCount":0,"shouldDisplayMessage":false,"stepsCount":0,"attachmentStep":false},{"name":"expect.toEqual","time":{"start":1724232596348,"stop":1724232596350,"duration":2},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"attachmentsCount":0,"shouldDisplayMessage":false,"stepsCount":0,"attachmentStep":false},{"name":"After Hooks","time":{"start":1724232596351,"stop":1724232596378,"duration":27},"status":"passed","steps":[{"name":"fixture: page","time":{"start":1724232596353,"stop":1724232596354,"duration":1},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"attachmentsCount":0,"shouldDisplayMessage":false,"stepsCount":0,"attachmentStep":false},{"name":"fixture: page","time":{"start":1724232596355,"stop":1724232596355,"duration":0},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"attachmentsCount":0,"shouldDisplayMessage":false,"stepsCount":0,"attachmentStep":false},{"name":"fixture: context","time":{"start":1724232596359,"stop":1724232596360,"duration":1},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"attachmentsCount":0,"shouldDisplayMessage":false,"stepsCount":0,"attachmentStep":false},{"name":"fixture: saveLogs","time":{"start":1724232596375,"stop":1724232596375,"duration":0},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"attachmentsCount":0,"shouldDisplayMessage":false,"stepsCount":0,"attachmentStep":false}],"attachments":[],"parameters":[],"hasContent":true,"attachmentsCount":0,"shouldDisplayMessage":false,"stepsCount":4,"attachmentStep":false}],"attachments":[],"parameters":[],"hasContent":true,"attachmentsCount":0,"shouldDisplayMessage":false,"stepsCount":17,"attachmentStep":false},"afterStages":[],"labels":[{"name":"language","value":"JavaScript"},{"name":"framework","value":"Playwright"},{"name":"titlePath","value":" > Mobile Chrome > mobile\\mobileTests.spec.js > Mobile Tests @mobile"},{"name":"host","value":"EPUAKYIW0216"},{"name":"thread","value":"EPUAKYIW0216-9352-playwright-worker-2"},{"name":"parentSuite","value":"Mobile Chrome"},{"name":"suite","value":"mobile\\mobileTests.spec.js"},{"name":"subSuite","value":"Mobile Tests @mobile"},{"name":"resultFormat","value":"allure2"}],"parameters":[{"name":"Project","value":"Mobile Chrome"}],"links":[],"hidden":false,"retry":false,"extra":{"severity":"normal","retries":[],"categories":[],"tags":[]},"source":"a17caefc356aa2fc.json","parameterValues":["Mobile Chrome"]}
+{
+  "uid": "a17caefc356aa2fc",
+  "name": "should verify home page title",
+  "fullName": "mobile/mobileTests.spec.js:21:3",
+  "historyId": "d8b4f1a15aae73f06216f12cf6ac5cc1:96797789f4669ba5e9de53cebde9126b",
+  "time": { "start": 1724232593424, "stop": 1724232595928, "duration": 2504 },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "testStage": {
+    "status": "passed",
+    "steps": [
+      {
+        "name": "Before Hooks",
+        "time": {
+          "start": 1724232593433,
+          "stop": 1724232596325,
+          "duration": 2892
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "fixture: saveLogs",
+            "time": {
+              "start": 1724232593453,
+              "stop": 1724232593457,
+              "duration": 4
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "attachmentsCount": 0,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: browser",
+            "time": {
+              "start": 1724232593460,
+              "stop": 1724232593870,
+              "duration": 410
+            },
+            "status": "passed",
+            "steps": [
+              {
+                "name": "browserType.launch",
+                "time": {
+                  "start": 1724232593467,
+                  "stop": 1724232593870,
+                  "duration": 403
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentStep": false
+              }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": true,
+            "attachmentsCount": 0,
+            "shouldDisplayMessage": false,
+            "stepsCount": 1,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: context",
+            "time": {
+              "start": 1724232593872,
+              "stop": 1724232593892,
+              "duration": 20
+            },
+            "status": "passed",
+            "steps": [
+              {
+                "name": "browser.newContext",
+                "time": {
+                  "start": 1724232593875,
+                  "stop": 1724232593888,
+                  "duration": 13
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentStep": false
+              }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": true,
+            "attachmentsCount": 0,
+            "shouldDisplayMessage": false,
+            "stepsCount": 1,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: page",
+            "time": {
+              "start": 1724232593893,
+              "stop": 1724232594353,
+              "duration": 460
+            },
+            "status": "passed",
+            "steps": [
+              {
+                "name": "browserContext.newPage",
+                "time": {
+                  "start": 1724232593896,
+                  "stop": 1724232594352,
+                  "duration": 456
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentStep": false
+              }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": true,
+            "attachmentsCount": 0,
+            "shouldDisplayMessage": false,
+            "stepsCount": 1,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: page",
+            "time": {
+              "start": 1724232594354,
+              "stop": 1724232596325,
+              "duration": 1971
+            },
+            "status": "passed",
+            "steps": [
+              {
+                "name": "page.goto(/)",
+                "time": {
+                  "start": 1724232594361,
+                  "stop": 1724232596325,
+                  "duration": 1964
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentStep": false
+              }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": true,
+            "attachmentsCount": 0,
+            "shouldDisplayMessage": false,
+            "stepsCount": 1,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "attachmentsCount": 0,
+        "shouldDisplayMessage": false,
+        "stepsCount": 9,
+        "attachmentStep": false
+      },
+      {
+        "name": "page.title",
+        "time": {
+          "start": 1724232596329,
+          "stop": 1724232596341,
+          "duration": 12
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "attachmentsCount": 0,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toEqual",
+        "time": {
+          "start": 1724232596348,
+          "stop": 1724232596350,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "attachmentsCount": 0,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "After Hooks",
+        "time": {
+          "start": 1724232596351,
+          "stop": 1724232596378,
+          "duration": 27
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "fixture: page",
+            "time": {
+              "start": 1724232596353,
+              "stop": 1724232596354,
+              "duration": 1
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "attachmentsCount": 0,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: page",
+            "time": {
+              "start": 1724232596355,
+              "stop": 1724232596355,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "attachmentsCount": 0,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: context",
+            "time": {
+              "start": 1724232596359,
+              "stop": 1724232596360,
+              "duration": 1
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "attachmentsCount": 0,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: saveLogs",
+            "time": {
+              "start": 1724232596375,
+              "stop": 1724232596375,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "attachmentsCount": 0,
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "attachmentsCount": 0,
+        "shouldDisplayMessage": false,
+        "stepsCount": 4,
+        "attachmentStep": false
+      }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "hasContent": true,
+    "attachmentsCount": 0,
+    "shouldDisplayMessage": false,
+    "stepsCount": 17,
+    "attachmentStep": false
+  },
+  "afterStages": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    {
+      "name": "titlePath",
+      "value": " > Mobile Chrome > mobile\\mobileTests.spec.js > Mobile Tests @mobile"
+    },
+    { "name": "host", "value": "EPUAKYIW0216" },
+    { "name": "thread", "value": "EPUAKYIW0216-9352-playwright-worker-2" },
+    { "name": "parentSuite", "value": "Mobile Chrome" },
+    { "name": "suite", "value": "mobile\\mobileTests.spec.js" },
+    { "name": "subSuite", "value": "Mobile Tests @mobile" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [{ "name": "Project", "value": "Mobile Chrome" }],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "a17caefc356aa2fc.json",
+  "parameterValues": ["Mobile Chrome"]
+}

@@ -1,1 +1,288 @@
-{"uid":"98d3104e051c652961429bf95fa0b5d6","name":"suites","children":[{"name":"Desktop Tests","children":[{"name":"desktop\\desktopTests.spec.js","children":[{"name":"Desktop Tests @desktop","children":[{"name":"should verify the logo","uid":"48ec5ad7e84e9bf","parentUid":"c3ade6a0cbd6bc64b993410801b80a91","status":"passed","time":{"start":1724232584482,"stop":1724232590532,"duration":6050},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Desktop Tests"],"tags":[]},{"name":"should verify home page title","uid":"6f7cb9c02c7949b2","parentUid":"c3ade6a0cbd6bc64b993410801b80a91","status":"passed","time":{"start":1724232584495,"stop":1724232589833,"duration":5338},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Desktop Tests"],"tags":[]},{"name":"should select search category, search and verify searching result","uid":"7444d24dd46f2b8","parentUid":"c3ade6a0cbd6bc64b993410801b80a91","status":"passed","time":{"start":1724232584511,"stop":1724232592176,"duration":7665},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Desktop Tests"],"tags":[]},{"name":"should search, select and verify item","uid":"c19211e8bf307a31","parentUid":"c3ade6a0cbd6bc64b993410801b80a91","status":"passed","time":{"start":1724232584515,"stop":1724232593867,"duration":9352},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Desktop Tests"],"tags":[]}],"uid":"c3ade6a0cbd6bc64b993410801b80a91"}],"uid":"535a3f3bf9ea2638c7ca243515cedceb"}],"uid":"32b68bf3b5327c0f8cbd52b3174654f8"},{"name":"Mobile Chrome","children":[{"name":"mobile\\mobileTests.spec.js","children":[{"name":"Mobile Tests @mobile","children":[{"name":"should search, select and verify item","uid":"36690de886a379c1","parentUid":"17e31f897baf8f176143b6115ffccf7e","status":"passed","time":{"start":1724232592280,"stop":1724232608048,"duration":15768},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Mobile Chrome"],"tags":[]},{"name":"should verify home page title","uid":"a17caefc356aa2fc","parentUid":"17e31f897baf8f176143b6115ffccf7e","status":"passed","time":{"start":1724232593424,"stop":1724232595928,"duration":2504},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Mobile Chrome"],"tags":[]},{"name":"should verify the logo","uid":"4fe38c10507e62d1","parentUid":"17e31f897baf8f176143b6115ffccf7e","status":"passed","time":{"start":1724232595001,"stop":1724232597856,"duration":2855},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Mobile Chrome"],"tags":[]},{"name":"should select option from footer, go there and verify the page title","uid":"4a83cfd1b32fd4cb","parentUid":"17e31f897baf8f176143b6115ffccf7e","status":"passed","time":{"start":1724232596630,"stop":1724232600915,"duration":4285},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Mobile Chrome"],"tags":[]}],"uid":"17e31f897baf8f176143b6115ffccf7e"}],"uid":"8449376c656bc364b384d131f76ea55e"}],"uid":"49eb9b3ab106604d32896ebbf4c5816c"},{"name":"Mobile Safari","children":[{"name":"mobile\\mobileTests.spec.js","children":[{"name":"Mobile Tests @mobile","children":[{"name":"should search, select and verify item","uid":"87ade917c4ec6909","parentUid":"9c98668364c92fe50913dbde4569f190","status":"passed","time":{"start":1724232598453,"stop":1724232619852,"duration":21399},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Mobile Safari"],"tags":[]},{"name":"should verify home page title","uid":"e2c3a953f0be8219","parentUid":"9c98668364c92fe50913dbde4569f190","status":"passed","time":{"start":1724232599785,"stop":1724232603059,"duration":3274},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Mobile Safari"],"tags":[]},{"name":"should verify the logo","uid":"31c2532c145141c3","parentUid":"9c98668364c92fe50913dbde4569f190","status":"passed","time":{"start":1724232602944,"stop":1724232606145,"duration":3201},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Mobile Safari"],"tags":[]},{"name":"should select option from footer, go there and verify the page title","uid":"4f1a5be5aa13b50f","parentUid":"9c98668364c92fe50913dbde4569f190","status":"passed","time":{"start":1724232603311,"stop":1724232608668,"duration":5357},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Mobile Safari"],"tags":[]}],"uid":"9c98668364c92fe50913dbde4569f190"}],"uid":"472d29bb723eaaf94af0576ee9284878"}],"uid":"135cb12b5aef5cd4f79f6b7ef2b168a1"}]}
+{
+  "uid": "98d3104e051c652961429bf95fa0b5d6",
+  "name": "suites",
+  "children": [
+    {
+      "name": "Desktop Tests",
+      "children": [
+        {
+          "name": "desktop\\desktopTests.spec.js",
+          "children": [
+            {
+              "name": "Desktop Tests @desktop",
+              "children": [
+                {
+                  "name": "should verify the logo",
+                  "uid": "48ec5ad7e84e9bf",
+                  "parentUid": "c3ade6a0cbd6bc64b993410801b80a91",
+                  "status": "passed",
+                  "time": {
+                    "start": 1724232584482,
+                    "stop": 1724232590532,
+                    "duration": 6050
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": ["Desktop Tests"],
+                  "tags": []
+                },
+                {
+                  "name": "should verify home page title",
+                  "uid": "6f7cb9c02c7949b2",
+                  "parentUid": "c3ade6a0cbd6bc64b993410801b80a91",
+                  "status": "passed",
+                  "time": {
+                    "start": 1724232584495,
+                    "stop": 1724232589833,
+                    "duration": 5338
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": ["Desktop Tests"],
+                  "tags": []
+                },
+                {
+                  "name": "should select search category, search and verify searching result",
+                  "uid": "7444d24dd46f2b8",
+                  "parentUid": "c3ade6a0cbd6bc64b993410801b80a91",
+                  "status": "passed",
+                  "time": {
+                    "start": 1724232584511,
+                    "stop": 1724232592176,
+                    "duration": 7665
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": ["Desktop Tests"],
+                  "tags": []
+                },
+                {
+                  "name": "should search, select and verify item",
+                  "uid": "c19211e8bf307a31",
+                  "parentUid": "c3ade6a0cbd6bc64b993410801b80a91",
+                  "status": "passed",
+                  "time": {
+                    "start": 1724232584515,
+                    "stop": 1724232593867,
+                    "duration": 9352
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": ["Desktop Tests"],
+                  "tags": []
+                }
+              ],
+              "uid": "c3ade6a0cbd6bc64b993410801b80a91"
+            }
+          ],
+          "uid": "535a3f3bf9ea2638c7ca243515cedceb"
+        }
+      ],
+      "uid": "32b68bf3b5327c0f8cbd52b3174654f8"
+    },
+    {
+      "name": "Mobile Chrome",
+      "children": [
+        {
+          "name": "mobile\\mobileTests.spec.js",
+          "children": [
+            {
+              "name": "Mobile Tests @mobile",
+              "children": [
+                {
+                  "name": "should search, select and verify item",
+                  "uid": "36690de886a379c1",
+                  "parentUid": "17e31f897baf8f176143b6115ffccf7e",
+                  "status": "passed",
+                  "time": {
+                    "start": 1724232592280,
+                    "stop": 1724232608048,
+                    "duration": 15768
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": ["Mobile Chrome"],
+                  "tags": []
+                },
+                {
+                  "name": "should verify home page title",
+                  "uid": "a17caefc356aa2fc",
+                  "parentUid": "17e31f897baf8f176143b6115ffccf7e",
+                  "status": "passed",
+                  "time": {
+                    "start": 1724232593424,
+                    "stop": 1724232595928,
+                    "duration": 2504
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": ["Mobile Chrome"],
+                  "tags": []
+                },
+                {
+                  "name": "should verify the logo",
+                  "uid": "4fe38c10507e62d1",
+                  "parentUid": "17e31f897baf8f176143b6115ffccf7e",
+                  "status": "passed",
+                  "time": {
+                    "start": 1724232595001,
+                    "stop": 1724232597856,
+                    "duration": 2855
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": ["Mobile Chrome"],
+                  "tags": []
+                },
+                {
+                  "name": "should select option from footer, go there and verify the page title",
+                  "uid": "4a83cfd1b32fd4cb",
+                  "parentUid": "17e31f897baf8f176143b6115ffccf7e",
+                  "status": "passed",
+                  "time": {
+                    "start": 1724232596630,
+                    "stop": 1724232600915,
+                    "duration": 4285
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": ["Mobile Chrome"],
+                  "tags": []
+                }
+              ],
+              "uid": "17e31f897baf8f176143b6115ffccf7e"
+            }
+          ],
+          "uid": "8449376c656bc364b384d131f76ea55e"
+        }
+      ],
+      "uid": "49eb9b3ab106604d32896ebbf4c5816c"
+    },
+    {
+      "name": "Mobile Safari",
+      "children": [
+        {
+          "name": "mobile\\mobileTests.spec.js",
+          "children": [
+            {
+              "name": "Mobile Tests @mobile",
+              "children": [
+                {
+                  "name": "should search, select and verify item",
+                  "uid": "87ade917c4ec6909",
+                  "parentUid": "9c98668364c92fe50913dbde4569f190",
+                  "status": "passed",
+                  "time": {
+                    "start": 1724232598453,
+                    "stop": 1724232619852,
+                    "duration": 21399
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": ["Mobile Safari"],
+                  "tags": []
+                },
+                {
+                  "name": "should verify home page title",
+                  "uid": "e2c3a953f0be8219",
+                  "parentUid": "9c98668364c92fe50913dbde4569f190",
+                  "status": "passed",
+                  "time": {
+                    "start": 1724232599785,
+                    "stop": 1724232603059,
+                    "duration": 3274
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": ["Mobile Safari"],
+                  "tags": []
+                },
+                {
+                  "name": "should verify the logo",
+                  "uid": "31c2532c145141c3",
+                  "parentUid": "9c98668364c92fe50913dbde4569f190",
+                  "status": "passed",
+                  "time": {
+                    "start": 1724232602944,
+                    "stop": 1724232606145,
+                    "duration": 3201
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": ["Mobile Safari"],
+                  "tags": []
+                },
+                {
+                  "name": "should select option from footer, go there and verify the page title",
+                  "uid": "4f1a5be5aa13b50f",
+                  "parentUid": "9c98668364c92fe50913dbde4569f190",
+                  "status": "passed",
+                  "time": {
+                    "start": 1724232603311,
+                    "stop": 1724232608668,
+                    "duration": 5357
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": ["Mobile Safari"],
+                  "tags": []
+                }
+              ],
+              "uid": "9c98668364c92fe50913dbde4569f190"
+            }
+          ],
+          "uid": "472d29bb723eaaf94af0576ee9284878"
+        }
+      ],
+      "uid": "135cb12b5aef5cd4f79f6b7ef2b168a1"
+    }
+  ]
+}

@@ -1,1 +1,264 @@
-{"uid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","name":"timeline","children":[{"name":"EPUAKYIW0216","children":[{"name":"EPUAKYIW0216-9352-playwright-worker-1","children":[{"name":"should search, select and verify item","uid":"36690de886a379c1","parentUid":"a006480c7cebcab891c46c86b397f75f","status":"passed","time":{"start":1724232592280,"stop":1724232608048,"duration":15768},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Mobile Chrome"],"tags":[]},{"name":"should verify home page title","uid":"6f7cb9c02c7949b2","parentUid":"a006480c7cebcab891c46c86b397f75f","status":"passed","time":{"start":1724232584495,"stop":1724232589833,"duration":5338},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Desktop Tests"],"tags":[]}],"uid":"a006480c7cebcab891c46c86b397f75f"},{"name":"EPUAKYIW0216-9352-playwright-worker-3","children":[{"name":"should select search category, search and verify searching result","uid":"7444d24dd46f2b8","parentUid":"65e8859bd9e06d892e31b7e2af5a68a5","status":"passed","time":{"start":1724232584511,"stop":1724232592176,"duration":7665},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Desktop Tests"],"tags":[]},{"name":"should verify home page title","uid":"e2c3a953f0be8219","parentUid":"65e8859bd9e06d892e31b7e2af5a68a5","status":"passed","time":{"start":1724232599785,"stop":1724232603059,"duration":3274},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Mobile Safari"],"tags":[]},{"name":"should verify the logo","uid":"4fe38c10507e62d1","parentUid":"65e8859bd9e06d892e31b7e2af5a68a5","status":"passed","time":{"start":1724232595001,"stop":1724232597856,"duration":2855},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Mobile Chrome"],"tags":[]},{"name":"should select option from footer, go there and verify the page title","uid":"4f1a5be5aa13b50f","parentUid":"65e8859bd9e06d892e31b7e2af5a68a5","status":"passed","time":{"start":1724232603311,"stop":1724232608668,"duration":5357},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Mobile Safari"],"tags":[]}],"uid":"65e8859bd9e06d892e31b7e2af5a68a5"},{"name":"EPUAKYIW0216-9352-playwright-worker-0","children":[{"name":"should verify the logo","uid":"31c2532c145141c3","parentUid":"20090368daef1867819b40c17ad58fb4","status":"passed","time":{"start":1724232602944,"stop":1724232606145,"duration":3201},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Mobile Safari"],"tags":[]},{"name":"should search, select and verify item","uid":"c19211e8bf307a31","parentUid":"20090368daef1867819b40c17ad58fb4","status":"passed","time":{"start":1724232584515,"stop":1724232593867,"duration":9352},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Desktop Tests"],"tags":[]},{"name":"should select option from footer, go there and verify the page title","uid":"4a83cfd1b32fd4cb","parentUid":"20090368daef1867819b40c17ad58fb4","status":"passed","time":{"start":1724232596630,"stop":1724232600915,"duration":4285},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Mobile Chrome"],"tags":[]}],"uid":"20090368daef1867819b40c17ad58fb4"},{"name":"EPUAKYIW0216-9352-playwright-worker-2","children":[{"name":"should search, select and verify item","uid":"87ade917c4ec6909","parentUid":"5a073ebdd6d4bec38e399fad2e0048d8","status":"passed","time":{"start":1724232598453,"stop":1724232619852,"duration":21399},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Mobile Safari"],"tags":[]},{"name":"should verify home page title","uid":"a17caefc356aa2fc","parentUid":"5a073ebdd6d4bec38e399fad2e0048d8","status":"passed","time":{"start":1724232593424,"stop":1724232595928,"duration":2504},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Mobile Chrome"],"tags":[]},{"name":"should verify the logo","uid":"48ec5ad7e84e9bf","parentUid":"5a073ebdd6d4bec38e399fad2e0048d8","status":"passed","time":{"start":1724232584482,"stop":1724232590532,"duration":6050},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["Desktop Tests"],"tags":[]}],"uid":"5a073ebdd6d4bec38e399fad2e0048d8"}],"uid":"81269a5bcb7b3c1d040b776876b344c6"}]}
+{
+  "uid": "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name": "timeline",
+  "children": [
+    {
+      "name": "EPUAKYIW0216",
+      "children": [
+        {
+          "name": "EPUAKYIW0216-9352-playwright-worker-1",
+          "children": [
+            {
+              "name": "should search, select and verify item",
+              "uid": "36690de886a379c1",
+              "parentUid": "a006480c7cebcab891c46c86b397f75f",
+              "status": "passed",
+              "time": {
+                "start": 1724232592280,
+                "stop": 1724232608048,
+                "duration": 15768
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["Mobile Chrome"],
+              "tags": []
+            },
+            {
+              "name": "should verify home page title",
+              "uid": "6f7cb9c02c7949b2",
+              "parentUid": "a006480c7cebcab891c46c86b397f75f",
+              "status": "passed",
+              "time": {
+                "start": 1724232584495,
+                "stop": 1724232589833,
+                "duration": 5338
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["Desktop Tests"],
+              "tags": []
+            }
+          ],
+          "uid": "a006480c7cebcab891c46c86b397f75f"
+        },
+        {
+          "name": "EPUAKYIW0216-9352-playwright-worker-3",
+          "children": [
+            {
+              "name": "should select search category, search and verify searching result",
+              "uid": "7444d24dd46f2b8",
+              "parentUid": "65e8859bd9e06d892e31b7e2af5a68a5",
+              "status": "passed",
+              "time": {
+                "start": 1724232584511,
+                "stop": 1724232592176,
+                "duration": 7665
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["Desktop Tests"],
+              "tags": []
+            },
+            {
+              "name": "should verify home page title",
+              "uid": "e2c3a953f0be8219",
+              "parentUid": "65e8859bd9e06d892e31b7e2af5a68a5",
+              "status": "passed",
+              "time": {
+                "start": 1724232599785,
+                "stop": 1724232603059,
+                "duration": 3274
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["Mobile Safari"],
+              "tags": []
+            },
+            {
+              "name": "should verify the logo",
+              "uid": "4fe38c10507e62d1",
+              "parentUid": "65e8859bd9e06d892e31b7e2af5a68a5",
+              "status": "passed",
+              "time": {
+                "start": 1724232595001,
+                "stop": 1724232597856,
+                "duration": 2855
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["Mobile Chrome"],
+              "tags": []
+            },
+            {
+              "name": "should select option from footer, go there and verify the page title",
+              "uid": "4f1a5be5aa13b50f",
+              "parentUid": "65e8859bd9e06d892e31b7e2af5a68a5",
+              "status": "passed",
+              "time": {
+                "start": 1724232603311,
+                "stop": 1724232608668,
+                "duration": 5357
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["Mobile Safari"],
+              "tags": []
+            }
+          ],
+          "uid": "65e8859bd9e06d892e31b7e2af5a68a5"
+        },
+        {
+          "name": "EPUAKYIW0216-9352-playwright-worker-0",
+          "children": [
+            {
+              "name": "should verify the logo",
+              "uid": "31c2532c145141c3",
+              "parentUid": "20090368daef1867819b40c17ad58fb4",
+              "status": "passed",
+              "time": {
+                "start": 1724232602944,
+                "stop": 1724232606145,
+                "duration": 3201
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["Mobile Safari"],
+              "tags": []
+            },
+            {
+              "name": "should search, select and verify item",
+              "uid": "c19211e8bf307a31",
+              "parentUid": "20090368daef1867819b40c17ad58fb4",
+              "status": "passed",
+              "time": {
+                "start": 1724232584515,
+                "stop": 1724232593867,
+                "duration": 9352
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["Desktop Tests"],
+              "tags": []
+            },
+            {
+              "name": "should select option from footer, go there and verify the page title",
+              "uid": "4a83cfd1b32fd4cb",
+              "parentUid": "20090368daef1867819b40c17ad58fb4",
+              "status": "passed",
+              "time": {
+                "start": 1724232596630,
+                "stop": 1724232600915,
+                "duration": 4285
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["Mobile Chrome"],
+              "tags": []
+            }
+          ],
+          "uid": "20090368daef1867819b40c17ad58fb4"
+        },
+        {
+          "name": "EPUAKYIW0216-9352-playwright-worker-2",
+          "children": [
+            {
+              "name": "should search, select and verify item",
+              "uid": "87ade917c4ec6909",
+              "parentUid": "5a073ebdd6d4bec38e399fad2e0048d8",
+              "status": "passed",
+              "time": {
+                "start": 1724232598453,
+                "stop": 1724232619852,
+                "duration": 21399
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["Mobile Safari"],
+              "tags": []
+            },
+            {
+              "name": "should verify home page title",
+              "uid": "a17caefc356aa2fc",
+              "parentUid": "5a073ebdd6d4bec38e399fad2e0048d8",
+              "status": "passed",
+              "time": {
+                "start": 1724232593424,
+                "stop": 1724232595928,
+                "duration": 2504
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["Mobile Chrome"],
+              "tags": []
+            },
+            {
+              "name": "should verify the logo",
+              "uid": "48ec5ad7e84e9bf",
+              "parentUid": "5a073ebdd6d4bec38e399fad2e0048d8",
+              "status": "passed",
+              "time": {
+                "start": 1724232584482,
+                "stop": 1724232590532,
+                "duration": 6050
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["Desktop Tests"],
+              "tags": []
+            }
+          ],
+          "uid": "5a073ebdd6d4bec38e399fad2e0048d8"
+        }
+      ],
+      "uid": "81269a5bcb7b3c1d040b776876b344c6"
+    }
+  ]
+}
