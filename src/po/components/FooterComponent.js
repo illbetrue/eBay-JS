@@ -9,7 +9,7 @@ export class FooterComponent extends BaseComponent {
     const options = {
       "Sign in/Register": "Sign in / Register",
       "Sell an item": "Sell an item",
-      Home: "Home",
+      "Home": "Home",
       "Help Contact": "Help & Contact",
       "Download the free eBay app": "Download the free eBay app",
     };
