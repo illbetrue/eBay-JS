@@ -31,8 +31,8 @@ export const test = base.extend({
   headerComponent: async ({ page }, use) => {
     await use(new HeaderComponent(page));
   },
-  // eslint-disable-next-line no-empty-pattern
   saveLogs: [
+    // eslint-disable-next-line no-empty-pattern
     async ({}, use, testInfo) => {
       const logs = [];
       debug.log = (...args) => logs.push(args.map(String).join(""));

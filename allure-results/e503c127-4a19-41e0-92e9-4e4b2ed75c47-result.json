@@ -1,7 +1,7 @@
 {
-  "uuid": "f4bbe4ad-9473-4bb9-826d-792b275313d0",
-  "name": "should verify the logo",
-  "historyId": "62063eaddb704f5ccd64ae0528939929:f0494070a4792d94c64308aac1604abb",
+  "uuid": "e503c127-4a19-41e0-92e9-4e4b2ed75c47",
+  "name": "should verify home page title",
+  "historyId": "d8b4f1a15aae73f06216f12cf6ac5cc1:f0494070a4792d94c64308aac1604abb",
   "status": "passed",
   "statusDetails": {},
   "stage": "finished",
@@ -18,9 +18,9 @@
           "steps": [],
           "attachments": [],
           "parameters": [],
-          "start": 1724222272818,
+          "start": 1724232599804,
           "name": "fixture: saveLogs",
-          "stop": 1724222272819
+          "stop": 1724232599805
         },
         {
           "status": "passed",
@@ -34,16 +34,16 @@
               "steps": [],
               "attachments": [],
               "parameters": [],
-              "start": 1724222272827,
+              "start": 1724232599817,
               "name": "browserType.launch",
-              "stop": 1724222272931
+              "stop": 1724232600030
             }
           ],
           "attachments": [],
           "parameters": [],
-          "start": 1724222272821,
+          "start": 1724232599809,
           "name": "fixture: browser",
-          "stop": 1724222272931
+          "stop": 1724232600030
         },
         {
           "status": "passed",
@@ -57,16 +57,16 @@
               "steps": [],
               "attachments": [],
               "parameters": [],
-              "start": 1724222272934,
+              "start": 1724232600033,
               "name": "browser.newContext",
-              "stop": 1724222272956
+              "stop": 1724232600067
             }
           ],
           "attachments": [],
           "parameters": [],
-          "start": 1724222272932,
+          "start": 1724232600031,
           "name": "fixture: context",
-          "stop": 1724222272958
+          "stop": 1724232600070
         },
         {
           "status": "passed",
@@ -80,16 +80,16 @@
               "steps": [],
               "attachments": [],
               "parameters": [],
-              "start": 1724222272961,
+              "start": 1724232600073,
               "name": "browserContext.newPage",
-              "stop": 1724222273355
+              "stop": 1724232600373
             }
           ],
           "attachments": [],
           "parameters": [],
-          "start": 1724222272959,
+          "start": 1724232600071,
           "name": "fixture: page",
-          "stop": 1724222273356
+          "stop": 1724232600373
         },
         {
           "status": "passed",
@@ -103,34 +103,23 @@
               "steps": [],
               "attachments": [],
               "parameters": [],
-              "start": 1724222273362,
+              "start": 1724232600381,
               "name": "page.goto(/)",
-              "stop": 1724222277922
+              "stop": 1724232603156
             }
           ],
           "attachments": [],
           "parameters": [],
-          "start": 1724222273357,
+          "start": 1724232600375,
           "name": "fixture: page",
-          "stop": 1724222277922
-        },
-        {
-          "status": "passed",
-          "statusDetails": {},
-          "stage": "finished",
-          "steps": [],
-          "attachments": [],
-          "parameters": [],
-          "start": 1724222277924,
-          "name": "fixture: headerComponent",
-          "stop": 1724222277925
+          "stop": 1724232603156
         }
       ],
       "attachments": [],
       "parameters": [],
-      "start": 1724222272799,
+      "start": 1724232599792,
       "name": "Before Hooks",
-      "stop": 1724222277925
+      "stop": 1724232603156
     },
     {
       "status": "passed",
@@ -139,9 +128,20 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1724222277930,
-      "name": "expect.toBeVisible",
-      "stop": 1724222278059
+      "start": 1724232603160,
+      "name": "page.title",
+      "stop": 1724232603284
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1724232603288,
+      "name": "expect.toEqual",
+      "stop": 1724232603289
     },
     {
       "status": "passed",
@@ -155,20 +155,9 @@
           "steps": [],
           "attachments": [],
           "parameters": [],
-          "start": 1724222278062,
-          "name": "fixture: headerComponent",
-          "stop": 1724222278062
-        },
-        {
-          "status": "passed",
-          "statusDetails": {},
-          "stage": "finished",
-          "steps": [],
-          "attachments": [],
-          "parameters": [],
-          "start": 1724222278063,
+          "start": 1724232603291,
           "name": "fixture: page",
-          "stop": 1724222278063
+          "stop": 1724232603291
         },
         {
           "status": "passed",
@@ -177,9 +166,9 @@
           "steps": [],
           "attachments": [],
           "parameters": [],
-          "start": 1724222278063,
+          "start": 1724232603291,
           "name": "fixture: page",
-          "stop": 1724222278064
+          "stop": 1724232603291
         },
         {
           "status": "passed",
@@ -188,9 +177,9 @@
           "steps": [],
           "attachments": [],
           "parameters": [],
-          "start": 1724222278064,
+          "start": 1724232603292,
           "name": "fixture: context",
-          "stop": 1724222278064
+          "stop": 1724232603292
         },
         {
           "status": "passed",
@@ -199,16 +188,16 @@
           "steps": [],
           "attachments": [],
           "parameters": [],
-          "start": 1724222278086,
+          "start": 1724232603302,
           "name": "fixture: saveLogs",
-          "stop": 1724222278086
+          "stop": 1724232603302
         }
       ],
       "attachments": [],
       "parameters": [],
-      "start": 1724222278060,
+      "start": 1724232603289,
       "name": "After Hooks",
-      "stop": 1724222278088
+      "stop": 1724232603304
     }
   ],
   "attachments": [],
@@ -221,14 +210,14 @@
       "value": " > Mobile Safari > mobile\\mobileTests.spec.js > Mobile Tests @mobile"
     },
     { "name": "host", "value": "EPUAKYIW0216" },
-    { "name": "thread", "value": "EPUAKYIW0216-25668-playwright-worker-0" },
+    { "name": "thread", "value": "EPUAKYIW0216-9352-playwright-worker-3" },
     { "name": "parentSuite", "value": "Mobile Safari" },
     { "name": "suite", "value": "mobile\\mobileTests.spec.js" },
     { "name": "subSuite", "value": "Mobile Tests @mobile" }
   ],
   "links": [],
-  "start": 1724222272790,
-  "testCaseId": "62063eaddb704f5ccd64ae0528939929",
-  "fullName": "mobile/mobileTests.spec.js:27:3",
-  "stop": 1724222277948
+  "start": 1724232599785,
+  "testCaseId": "d8b4f1a15aae73f06216f12cf6ac5cc1",
+  "fullName": "mobile/mobileTests.spec.js:21:3",
+  "stop": 1724232603059
 }

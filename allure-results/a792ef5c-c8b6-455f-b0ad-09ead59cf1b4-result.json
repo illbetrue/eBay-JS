@@ -1,7 +1,7 @@
 {
-  "uuid": "19359cef-7cba-4280-83fe-dee0a064a176",
-  "name": "should select search category, search and verify searching result",
-  "historyId": "5ada7a16cfedb53566e63816ea44a9d5:6925d176129bd187ec99a364cf706e33",
+  "uuid": "a792ef5c-c8b6-455f-b0ad-09ead59cf1b4",
+  "name": "should search, select and verify item",
+  "historyId": "2cd9419a604966bbaabd5766a6c188f8:6925d176129bd187ec99a364cf706e33",
   "status": "passed",
   "statusDetails": {},
   "stage": "finished",
@@ -18,9 +18,9 @@
           "steps": [],
           "attachments": [],
           "parameters": [],
-          "start": 1724222246840,
+          "start": 1724232584532,
           "name": "fixture: saveLogs",
-          "stop": 1724222246841
+          "stop": 1724232584533
         },
         {
           "status": "passed",
@@ -34,16 +34,16 @@
               "steps": [],
               "attachments": [],
               "parameters": [],
-              "start": 1724222246851,
+              "start": 1724232584537,
               "name": "browserType.launch",
-              "stop": 1724222248649
+              "stop": 1724232584834
             }
           ],
           "attachments": [],
           "parameters": [],
-          "start": 1724222246844,
+          "start": 1724232584534,
           "name": "fixture: browser",
-          "stop": 1724222248649
+          "stop": 1724232584834
         },
         {
           "status": "passed",
@@ -57,16 +57,16 @@
               "steps": [],
               "attachments": [],
               "parameters": [],
-              "start": 1724222248656,
+              "start": 1724232584838,
               "name": "browser.newContext",
-              "stop": 1724222248685
+              "stop": 1724232584847
             }
           ],
           "attachments": [],
           "parameters": [],
-          "start": 1724222248652,
+          "start": 1724232584835,
           "name": "fixture: context",
-          "stop": 1724222248689
+          "stop": 1724232584849
         },
         {
           "status": "passed",
@@ -80,16 +80,16 @@
               "steps": [],
               "attachments": [],
               "parameters": [],
-              "start": 1724222248694,
+              "start": 1724232584852,
               "name": "browserContext.newPage",
-              "stop": 1724222249140
+              "stop": 1724232585196
             }
           ],
           "attachments": [],
           "parameters": [],
-          "start": 1724222248690,
+          "start": 1724232584850,
           "name": "fixture: page",
-          "stop": 1724222249140
+          "stop": 1724232585196
         },
         {
           "status": "passed",
@@ -103,16 +103,16 @@
               "steps": [],
               "attachments": [],
               "parameters": [],
-              "start": 1724222249155,
+              "start": 1724232585203,
               "name": "page.goto(/)",
-              "stop": 1724222255690
+              "stop": 1724232589536
             }
           ],
           "attachments": [],
           "parameters": [],
-          "start": 1724222249142,
+          "start": 1724232585197,
           "name": "fixture: page",
-          "stop": 1724222255691
+          "stop": 1724232589536
         },
         {
           "status": "passed",
@@ -121,9 +121,20 @@
           "steps": [],
           "attachments": [],
           "parameters": [],
-          "start": 1724222255692,
+          "start": 1724232589537,
+          "name": "fixture: itemPage",
+          "stop": 1724232589538
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1724232589539,
           "name": "fixture: searchResultPage",
-          "stop": 1724222255693
+          "stop": 1724232589540
         },
         {
           "status": "passed",
@@ -132,16 +143,16 @@
           "steps": [],
           "attachments": [],
           "parameters": [],
-          "start": 1724222255696,
+          "start": 1724232589540,
           "name": "fixture: headerComponent",
-          "stop": 1724222255697
+          "stop": 1724232589541
         }
       ],
       "attachments": [],
       "parameters": [],
-      "start": 1724222246818,
+      "start": 1724232584520,
       "name": "Before Hooks",
-      "stop": 1724222255698
+      "stop": 1724232589541
     },
     {
       "status": "passed",
@@ -150,31 +161,9 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1724222255707,
-      "name": "locator.click(//table[@id=\"gh-search-wrap\"])",
-      "stop": 1724222255871
-    },
-    {
-      "status": "passed",
-      "statusDetails": {},
-      "stage": "finished",
-      "steps": [],
-      "attachments": [],
-      "parameters": [],
-      "start": 1724222255874,
-      "name": "page.selectOption(//table[@id=\"gh-search-wrap\"]//s",
-      "stop": 1724222255966
-    },
-    {
-      "status": "passed",
-      "statusDetails": {},
-      "stage": "finished",
-      "steps": [],
-      "attachments": [],
-      "parameters": [],
-      "start": 1724222255970,
+      "start": 1724232589547,
       "name": "locator.fill([type=\"text\"])",
-      "stop": 1724222256009
+      "stop": 1724232589613
     },
     {
       "status": "passed",
@@ -183,9 +172,9 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1724222256012,
+      "start": 1724232589615,
       "name": "locator.click([type=\"submit\"], button.gh-search__s",
-      "stop": 1724222256680
+      "stop": 1724232590218
     },
     {
       "status": "passed",
@@ -194,9 +183,9 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1724222256686,
-      "name": "locator.innerText(h1.srp-controls__count-heading)",
-      "stop": 1724222257687
+      "start": 1724232590225,
+      "name": "locator.scrollIntoViewIfNeeded(input[aria-label='2",
+      "stop": 1724232591752
     },
     {
       "status": "passed",
@@ -205,9 +194,108 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1724222257694,
+      "start": 1724232591755,
+      "name": "locator.isChecked(input[aria-label='256 GB'])",
+      "stop": 1724232591779
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1724232591782,
+      "name": "locator.click(input[aria-label='256 GB'])",
+      "stop": 1724232591931
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1724232591934,
+      "name": "page.waitForSelector(div.s-item__image-section)",
+      "stop": 1724232591963
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1724232591966,
+      "name": "page.$$(div.s-item__image-section)",
+      "stop": 1724232592133
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1724232592137,
+      "name": "elementHandle.scrollIntoViewIfNeeded",
+      "stop": 1724232592184
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1724232592186,
+      "name": "elementHandle.hover",
+      "stop": 1724232592266
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1724232592269,
+      "name": "elementHandle.click",
+      "stop": 1724232592356
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1724232592360,
+      "name": "browserContext.waitForEvent",
+      "stop": 1724232593131
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1724232593139,
+      "name": "locator.innerText(.x-item-title__mainTitle)",
+      "stop": 1724232594147
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1724232594154,
       "name": "expect.toContain",
-      "stop": 1724222257695
+      "stop": 1724232594155
     },
     {
       "status": "passed",
@@ -221,9 +309,9 @@
           "steps": [],
           "attachments": [],
           "parameters": [],
-          "start": 1724222257698,
+          "start": 1724232594158,
           "name": "fixture: headerComponent",
-          "stop": 1724222257699
+          "stop": 1724232594159
         },
         {
           "status": "passed",
@@ -232,9 +320,9 @@
           "steps": [],
           "attachments": [],
           "parameters": [],
-          "start": 1724222257700,
+          "start": 1724232594160,
           "name": "fixture: searchResultPage",
-          "stop": 1724222257700
+          "stop": 1724232594160
         },
         {
           "status": "passed",
@@ -243,9 +331,20 @@
           "steps": [],
           "attachments": [],
           "parameters": [],
-          "start": 1724222257701,
+          "start": 1724232594161,
+          "name": "fixture: itemPage",
+          "stop": 1724232594161
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1724232594163,
           "name": "fixture: page",
-          "stop": 1724222257701
+          "stop": 1724232594163
         },
         {
           "status": "passed",
@@ -254,9 +353,9 @@
           "steps": [],
           "attachments": [],
           "parameters": [],
-          "start": 1724222257701,
+          "start": 1724232594165,
           "name": "fixture: page",
-          "stop": 1724222257702
+          "stop": 1724232594166
         },
         {
           "status": "passed",
@@ -265,9 +364,9 @@
           "steps": [],
           "attachments": [],
           "parameters": [],
-          "start": 1724222257702,
+          "start": 1724232594167,
           "name": "fixture: context",
-          "stop": 1724222257702
+          "stop": 1724232594167
         },
         {
           "status": "passed",
@@ -276,16 +375,16 @@
           "steps": [],
           "attachments": [],
           "parameters": [],
-          "start": 1724222257777,
+          "start": 1724232594196,
           "name": "fixture: saveLogs",
-          "stop": 1724222257777
+          "stop": 1724232594196
         }
       ],
       "attachments": [],
       "parameters": [],
-      "start": 1724222257696,
+      "start": 1724232594156,
       "name": "After Hooks",
-      "stop": 1724222257779
+      "stop": 1724232594198
     }
   ],
   "attachments": [],
@@ -298,14 +397,14 @@
       "value": " > Desktop Tests > desktop\\desktopTests.spec.js > Desktop Tests @desktop"
     },
     { "name": "host", "value": "EPUAKYIW0216" },
-    { "name": "thread", "value": "EPUAKYIW0216-25668-playwright-worker-3" },
+    { "name": "thread", "value": "EPUAKYIW0216-9352-playwright-worker-0" },
     { "name": "parentSuite", "value": "Desktop Tests" },
     { "name": "suite", "value": "desktop\\desktopTests.spec.js" },
     { "name": "subSuite", "value": "Desktop Tests @desktop" }
   ],
   "links": [],
-  "start": 1724222246808,
-  "testCaseId": "5ada7a16cfedb53566e63816ea44a9d5",
-  "fullName": "desktop/desktopTests.spec.js:36:3",
-  "stop": 1724222255931
+  "start": 1724232584515,
+  "testCaseId": "2cd9419a604966bbaabd5766a6c188f8",
+  "fullName": "desktop/desktopTests.spec.js:6:3",
+  "stop": 1724232593867
 }

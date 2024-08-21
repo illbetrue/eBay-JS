@@ -10,8 +10,9 @@ test.describe("Mobile Tests @mobile", () => {
   }) => {
     const itemName = "iPhone 13";
     await headerComponent.searchFor(itemName);
-    await searchResultPage.selectMobileCategoriesFilter("Storage Capacity");
-    await searchResultPage.markMobileCheckBoxAndSubmit("256 GB");
+    await searchResultPage.tapMobileFilterButton();
+    await searchResultPage.chooseMobileFilterOption("Condition");
+    await searchResultPage.markMobileSubFilterOption("New");
     await searchResultPage.selectItemByIndex(3);
     const result = await itemPage.getItemName();
     compareText(result, itemName, "contain");

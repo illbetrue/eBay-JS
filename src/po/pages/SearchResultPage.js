@@ -40,15 +40,19 @@ export class SearchResultPage extends BasePage {
     return checkbox;
   }
 
-  async selectMobileCategoriesFilter(input) {
+  async tapMobileFilterButton() {
     await this.#mobileFilterButton.click();
+  }
+
+  async chooseMobileFilterOption(input) {
     const mobileFilterCategoryButton = await this.container.locator(
       `(//span[text()='${input}']/following-sibling::span)[2]`,
     );
+    await mobileFilterCategoryButton.waitFor({ state: "visible" });
     await mobileFilterCategoryButton.click();
   }
 
-  async markMobileCheckBoxAndSubmit(value) {
+  async markMobileSubFilterOption(value) {
     const checkboxOption = `//label[text()='${value}']`;
     const submitButton = `//button[@idx='3']`;
     const mobileCategoryCheckbox = this.container.locator(checkboxOption);
