@@ -1,19 +1,14 @@
-export class ItemPage {
-  #page;
-  #desktopItemName;
-  #mobileItemName;
+import { BasePage } from "./BasePage";
 
-  constructor(page) {
-    this.#page = page;
-    this.#desktopItemName = this.#page.locator(".x-item-title__mainTitle");
-    this.#mobileItemName = this.#page.locator("div.vi-title__main");
+export class ItemPage extends BasePage {
+  #ItemName;
+
+  constructor(container) {
+    super(container);
+    this.#ItemName = this.container.locator(".x-item-title__mainTitle");
   }
 
-  async getDesktopItemName() {
-    return await this.#desktopItemName.innerText();
-  }
-
-  async getMobileItemName() {
-    return await this.#mobileItemName.innerText();
+  async getItemName() {
+    return await this.#ItemName.innerText();
   }
 }

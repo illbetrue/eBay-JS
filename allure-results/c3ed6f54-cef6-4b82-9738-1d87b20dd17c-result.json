@@ -1,0 +1,223 @@
+{
+  "uuid": "c3ed6f54-cef6-4b82-9738-1d87b20dd17c",
+  "name": "should verify home page title",
+  "historyId": "d8b4f1a15aae73f06216f12cf6ac5cc1:f0494070a4792d94c64308aac1604abb",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1724222268908,
+          "name": "fixture: saveLogs",
+          "stop": 1724222268908
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1724222268915,
+              "name": "browserType.launch",
+              "stop": 1724222269017
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1724222268911,
+          "name": "fixture: browser",
+          "stop": 1724222269017
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1724222269020,
+              "name": "browser.newContext",
+              "stop": 1724222269039
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1724222269018,
+          "name": "fixture: context",
+          "stop": 1724222269042
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1724222269045,
+              "name": "browserContext.newPage",
+              "stop": 1724222269521
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1724222269043,
+          "name": "fixture: page",
+          "stop": 1724222269521
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1724222269530,
+              "name": "page.goto(/)",
+              "stop": 1724222272334
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1724222269523,
+          "name": "fixture: page",
+          "stop": 1724222272334
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1724222268890,
+      "name": "Before Hooks",
+      "stop": 1724222272334
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1724222272337,
+      "name": "page.title",
+      "stop": 1724222272455
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1724222272459,
+      "name": "expect.toEqual",
+      "stop": 1724222272461
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1724222272463,
+          "name": "fixture: page",
+          "stop": 1724222272463
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1724222272463,
+          "name": "fixture: page",
+          "stop": 1724222272463
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1724222272464,
+          "name": "fixture: context",
+          "stop": 1724222272464
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1724222272486,
+          "name": "fixture: saveLogs",
+          "stop": 1724222272487
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1724222272461,
+      "name": "After Hooks",
+      "stop": 1724222272489
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "Mobile Safari" }],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    {
+      "name": "titlePath",
+      "value": " > Mobile Safari > mobile\\mobileTests.spec.js > Mobile Tests @mobile"
+    },
+    { "name": "host", "value": "EPUAKYIW0216" },
+    { "name": "thread", "value": "EPUAKYIW0216-25668-playwright-worker-3" },
+    { "name": "parentSuite", "value": "Mobile Safari" },
+    { "name": "suite", "value": "mobile\\mobileTests.spec.js" },
+    { "name": "subSuite", "value": "Mobile Tests @mobile" }
+  ],
+  "links": [],
+  "start": 1724222268880,
+  "testCaseId": "d8b4f1a15aae73f06216f12cf6ac5cc1",
+  "fullName": "mobile/mobileTests.spec.js:20:3",
+  "stop": 1724222272355
+}

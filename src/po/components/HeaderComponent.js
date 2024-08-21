@@ -1,21 +1,22 @@
-export class HeaderComponent {
-  #page;
+import { BaseComponent } from "./BaseComponent";
+
+export class HeaderComponent extends BaseComponent {
   #searchInput;
   #searchButton;
   #logoDesktop;
   #logoMobile;
   #searchCategoriesDropdown;
 
-  constructor(page) {
-    this.#page = page;
-    this.#searchInput = this.#page.locator('[type="text"]');
-    this.#searchButton = this.#page.locator(
+  constructor(container) {
+    super(container);
+    this.#searchInput = this.container.locator('[type="text"]');
+    this.#searchButton = this.container.locator(
       '[type="submit"], button.gh-search__submitbtn',
     );
-    this.#logoDesktop = this.#page.getByAltText("eBay Home");
-    this.#logoMobile = this.#page.getByAltText("eBay Logo");
-    this.#searchCategoriesDropdown = this.#page.locator(
-      `//table[@id='gh-search-wrap']`,
+    this.#logoDesktop = this.container.locator("#gh-la");
+    this.#logoMobile = this.container.getByAltText("eBay Logo");
+    this.#searchCategoriesDropdown = this.container.locator(
+      '//table[@id="gh-search-wrap"]',
     );
   }
 
@@ -26,7 +27,7 @@ export class HeaderComponent {
 
   async selectOptionAndSearch(value, query) {
     await this.#searchCategoriesDropdown.click();
-    await this.#page.selectOption(
+    await this.container.selectOption(
       '//table[@id="gh-search-wrap"]//select',
       value,
     );
@@ -34,11 +35,19 @@ export class HeaderComponent {
     await this.#searchButton.click();
   }
 
-  getLogoMobile() {
-    return this.#logoMobile;
+  async navigateToHomePageUsingDesktopLogo() {
+    await this.logoDesktop.click();
   }
 
-  getLogoDesktop() {
+  async navigateToHomePageUsingMobileLogo() {
+    await this.logoMobile.click();
+  }
+
+  get logoDesktop() {
     return this.#logoDesktop;
+  }
+
+  get logoMobile() {
+    return this.#logoMobile;
   }
 }

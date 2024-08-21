@@ -1,0 +1,223 @@
+{
+  "uuid": "e21f7f91-a13c-43f2-b840-3a0dd294904d",
+  "name": "should verify home page title",
+  "historyId": "a2c468129d5f38d64493f6eeb0786b78:6925d176129bd187ec99a364cf706e33",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1724222246779,
+          "name": "fixture: saveLogs",
+          "stop": 1724222246780
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1724222246790,
+              "name": "browserType.launch",
+              "stop": 1724222247254
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1724222246783,
+          "name": "fixture: browser",
+          "stop": 1724222247254
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1724222247261,
+              "name": "browser.newContext",
+              "stop": 1724222247281
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1724222247256,
+          "name": "fixture: context",
+          "stop": 1724222247285
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1724222247289,
+              "name": "browserContext.newPage",
+              "stop": 1724222248324
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1724222247286,
+          "name": "fixture: page",
+          "stop": 1724222248324
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1724222248336,
+              "name": "page.goto(/)",
+              "stop": 1724222254164
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1724222248327,
+          "name": "fixture: page",
+          "stop": 1724222254164
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1724222246758,
+      "name": "Before Hooks",
+      "stop": 1724222254164
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1724222254168,
+      "name": "page.title",
+      "stop": 1724222254182
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1724222254187,
+      "name": "expect.toEqual",
+      "stop": 1724222254188
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1724222254190,
+          "name": "fixture: page",
+          "stop": 1724222254190
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1724222254191,
+          "name": "fixture: page",
+          "stop": 1724222254191
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1724222254191,
+          "name": "fixture: context",
+          "stop": 1724222254192
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1724222254230,
+          "name": "fixture: saveLogs",
+          "stop": 1724222254231
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1724222254189,
+      "name": "After Hooks",
+      "stop": 1724222254233
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "Desktop Tests" }],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    {
+      "name": "titlePath",
+      "value": " > Desktop Tests > desktop\\desktopTests.spec.js > Desktop Tests @desktop"
+    },
+    { "name": "host", "value": "EPUAKYIW0216" },
+    { "name": "thread", "value": "EPUAKYIW0216-25668-playwright-worker-1" },
+    { "name": "parentSuite", "value": "Desktop Tests" },
+    { "name": "suite", "value": "desktop\\desktopTests.spec.js" },
+    { "name": "subSuite", "value": "Desktop Tests @desktop" }
+  ],
+  "links": [],
+  "start": 1724222246753,
+  "testCaseId": "a2c468129d5f38d64493f6eeb0786b78",
+  "fullName": "desktop/desktopTests.spec.js:24:3",
+  "stop": 1724222253730
+}

@@ -1,31 +1,38 @@
-export class SearchResultPage {
-  #page;
+import { BasePage } from "./BasePage";
+
+export class SearchResultPage extends BasePage {
   #mobileFilterButton;
   #searchingResult;
 
-  constructor(page) {
-    this.#page = page;
-    this.#mobileFilterButton = this.#page.locator(
+  constructor(container) {
+    super(container);
+    this.#mobileFilterButton = this.container.locator(
       "button.srp-controls__control--link.srp-controls__control--link-left.srp-controls__control--link-enabled.btn",
     );
-    this.#searchingResult = this.#page.locator(
-      `h1.srp-controls__count-heading`,
+    this.#searchingResult = this.container.locator(
+      "h1.srp-controls__count-heading",
     );
   }
 
   async selectItemByIndex(index) {
-    await this.#page.waitForSelector("div.s-item__image-section");
-    const items = await this.#page.$$("div.s-item__image-section");
-    if (index >= 0 && index < items.length) {
-      await items[index].scrollIntoViewIfNeeded();
-      await items[index].click({ force: true });
-    } else {
-      throw new Error(`Index ${index} not found. Elements: ${items.length}`);
+    const selector = "div.s-item__image-section";
+    await this.container.waitForSelector(selector, { state: "visible" });
+    const items = await this.container.$$(selector);
+
+    if (index < 0 || index >= items.length) {
+      throw new Error(
+        `Index ${index} is out of range. Total available items: ${items.length}`,
+      );
     }
+
+    const item = items[index];
+    await item.scrollIntoViewIfNeeded();
+    await item.hover();
+    await item.click();
   }
 
   async markFilterOptionCheckbox(value) {
-    const checkbox = await this.#page.locator(`input[aria-label='${value}']`);
+    const checkbox = this.container.locator(`input[aria-label='${value}']`);
     await checkbox.scrollIntoViewIfNeeded();
     if (!(await checkbox.isChecked())) {
       await checkbox.click();
@@ -35,21 +42,25 @@ export class SearchResultPage {
 
   async selectMobileCategoriesFilter(input) {
     await this.#mobileFilterButton.click();
-    const mobileFilterCategoryButton = await this.#page.locator(
+    const mobileFilterCategoryButton = await this.container.locator(
       `(//span[text()='${input}']/following-sibling::span)[2]`,
     );
     await mobileFilterCategoryButton.click();
   }
 
   async markMobileCheckBoxAndSubmit(value) {
-    const mobileCategoryCheckbox = await this.#page.locator(
-      `//label[text()='${value}']`,
-    );
+    const checkboxOption = `//label[text()='${value}']`;
+    const submitButton = `//button[@idx='3']`;
+    const mobileCategoryCheckbox = this.container.locator(checkboxOption);
+
+    await this.container.waitForSelector(checkboxOption, { state: "attached" });
     await mobileCategoryCheckbox.click();
-    const filterCategorySubmitButton =
-      await this.#page.locator(`//button[@idx='3']`);
+
+    const filterCategorySubmitButton = this.container.locator(submitButton);
+    await this.container.waitForSelector(submitButton, { state: "attached" });
     await filterCategorySubmitButton.click();
-    await this.#page.waitForTimeout(1000);
+
+    await this.container.waitForNavigation({ waitUntil: "networkidle" });
   }
 
   async getSearchResultText() {
